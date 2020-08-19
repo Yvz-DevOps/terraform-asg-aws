@@ -21,8 +21,3 @@ resource "aws_security_group" "asg-sec-group" {
     Name = "allow_tls"
   }
 }
-
-  tags = {
-    Name = "allow_tls"
-  }
-}
