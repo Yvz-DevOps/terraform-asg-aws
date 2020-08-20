@@ -4,9 +4,9 @@ resource "aws_autoscaling_group" "example" {
     "${var.region}b",
     "${var.region}c",
      ]
- desired_capacity = "1"
- max_size = "1"
- min_size = "1"
+ desired_capacity = 1
+ max_size = 1
+ min_size = 1
 
   mixed_instances_policy {
     launch_template {
